@@ -1,0 +1,964 @@
+Adobe Photoshop is the leading professional image editing and creating with full of high-quality features.We can manipulate any image in a best way.
+Adobe Photoshop is a paid software, and you can purchase it or download trial version form Adobe Creative Cloud.
+We ar not bound to work on Adobe Photoshop only for photo editing. We have lots of features in Photoshop which increase its value in Graphics Desinging.
+
+We can Design Websit/Mobile Application/Software, Logo/GIFs, Banner/Flex/Hoarding
+Creating 3D Artwork
+
+ctrl + Alt + c  		== Canava Size
+ctrl + g        		== layer select and create group
+shift + u       		== custom Shape tool shape select like rectangle,circle etc.
+shift + v       		== Move tool
+ctrl + shift + backspace 	== background color
+alt + shift + backspace 	== foreground color
+ctrl + r   			== margin
+ctrl + h                        == margin line hide or show
+ctrl + --   			== zoom in
+ctrl + ++                        == zoom out
+ctrl + 0   			== fit to screen
+
+What is Fultter ?
+	Flutter is a rich UI Framework developed by google.
+What is Swift?
+	Dart is the language that powers Flutter.
+What is DartPad?
+	DartPad allows you to test your dart code right in the browser
+
+
+In this brief overview, you learned about:
+The basic communication between client and servers 
+How websites are built and displayed
+Front-end development is about what happens on the client
+Back-end development is about what happens on the server
+Full-stack development includes both front-end back-end develpment.
+
+
+HTML is used to create the physical structure of a website with:
+Text, Links, Image/Videos, Page Dividers, Buttons
+
+The back-end developer codes the structure of the website.
+Designeres add style to a space.
+We need front-end developers to add the necessary glamor and appeal to a websites
+
+CSS provides front-end developers with a standard menthod to define apply, and manage different sets of style characteristics for a websites and each of its components.
+Css ensures uniformity in look and feel, style, colors, fonts, design and layouts.
+
+HTML is used to create the structure and css is used to design it and make it appealing. 
+CSS is also used to create websites that have cross browser compatibility such as PC, mobile devices, iPads etc.
+
+JavaScript is an object oriented programming language that is used to conjunction with HTML and CSS to add interactivity to a website using HTML to add a login button to your page and css to style button
+
+A front end development language is synthetically absolute level sheets (SASS).
+An extension of CSS that is compatible with all versions of CSS.
+SASS enables you to use thing like variable nested rules inline imports to keep things organised.
+SASS allows you to create stylesheets faster and more easily
+
+Learning style sheet (LESS)
+LESS in hands CSS adding more style and functionS
+iI is backward compatible with CSS.
+Less.js is a JavaScript tool that converts that's less style to CSS styles
+
+Websites are designed as reactive and responsive.
+Reactive or adaptive websites display the version of the website design for a specific screen size.
+A website can provide more information if opened on a PC that when opened on a mobile device
+
+Responsive design of a website means that it will automatically resize to the device.
+If you open up a products website on your mobile device it will adapt itself to the small size of the screen and still show you all the features
+
+JavaScript Framework 
+Angular Framework is an open source Framework maintained by Google.
+Angular Framework allows website to render HTML page quickly and efficiently.
+It has built-in tools for routing and form validation.
+React JS has been developed and maintained by Facebook.
+It is a JavaScript library that would and render component for a page.
+Routing is not a part of this framework and will need to be added using a third party tool 
+
+Vue.js is maintained by the community and its main focus is the view layer which includes a user interface buttons, visual components.
+It is a flexible scalable and integrates well with other frame because It is very adaptable it can be a library or it can be the framework. 
+The task of a front end developer envolves continuously.
+The technology are upgraded constantly and so the front end developer need to talk to keep upgrading the website that they create the website that they create.
+The websites that they create should work in multiple Browsers and multiple operating systems and multiple devices
+
+Libraries-  Collections of reusable code
+
+Framworks
+Provide a standard way to build and deploy applications
+Act as a skeleton you extend by adding your own code
+
+application developers tools cloud application developers workbench includes CI CD build tools packages package manager 
+CI CD 
+continuous integration with continuous delivery and continuous deployment 
+Enables developers to deliver frequent changes reliably 
+implemented through a build automation server 
+CI automatically build and test code
+CD deplores that changes
+
+build tools 
+transform source code into binary for installation 
+important in environments with many interconnected projects and multiple developers 
+automate tasks like 
+downloading dependencies
+compiling source code into binary code 
+packaging that one record 
+running test 
+deployment to production systems
+example of build Tools  Webpack-Javascript module bundler, Babel-Javascript compiler
+
+packages packages make apps to install 
+packages contain 
+app file 
+instructions for installation metadata 
+package managers 
+make working with packets easier
+co-ordinate with file achieves to extract packet archieve 
+verified checksums and Digital Certificate to ensure the integrity and authenticity of the package 
+Locate, Download install or update updating software from a software repository.
+Manage dependencies to ensure a package is installed with all packages it requires
+
+package manager by platform 
+Linux debian package management system 
+red hat package manager
+cloud application package manager 
+libraries and utility code are managed with the cloud application package manager 
+node.js/JavaScript     NPN 
+Java        gradle Maven 
+Ruby Rubygems 
+python      pip Conda
+
+GPS(Global Positioning System)
+API(Application Programming Interface) 
+Graphical User Interface (GUI)
+
+GPS (Global Positioning System) If your device has any GPS capabilities, the current position is identified using the satellite signal.
+
+Mobile Network Location If you are browsing the internet using a mobile phone or a wireless modem, your location is tracked using the location of the nearest cell phone towers.
+
+WiFi Positioning System If you are using a WiFi, then the Wi-Fi positioning system is used.
+
+IP Address Location If none of the above is a possibility, location is detected based on the nearest Public IP Address. The accuracy of IP based location may not be very accurate. It can be used to identify the city, region or country.
+
+Front-end developers work on the parts of the website or app that the user sees and interacts with.
+
+Back-end developers work on the logic and functionality that keeps the website or app running and responding to users’ inputs.
+
+Full-stack developers have both sets of skills.
+
+Front-end developers and back-end developers work closely together.
+
+Common languages for front-end development include: HTML, CSS, and JavaScript.
+
+Common languages and frameworks for back-end development include Python, Django, and Flask.
+
+Frameworks and libraries extend the functionality of coding languages such as JavaScript and Python.
+
+Developer Roles
+Front-end developer
+Creates websites and cloud apps that the user interacts with
+Back-end developer
+Creates and manages resources needed to respond to client requests
+Work together closly throughout the life of the website of cloud app
+
+what does the back-end do?
+Tha back-end processes the data you enter while browsing 
+Login information Product Searches 
+Payment information 
+Back-end developers
+Write and maintain the parts of the application that process the inputs
+
+backend developer skills
+examples of tasks and associated skills that back-end developers need:
+Search requests submitted to database
+Web application development language
+Database query language
+Navigation to restricted areas
+User account management
+Authntication and authorization
+Secure Payment
+Secure data handling
+Secure storage
+
+APIs, Routing and Endpoints
+APIs,routes and endpoints process requests from the front-end 
+API-words with data
+Route- path to a websites
+Endpoint- API or path
+Back-end developers create routes to direct requests to the correct servie APIs provide a way for Cloud apps to access rewources from the back-end
+
+working with databases
+Language and toos for working with databases:
+Structuced Query Language(SQL)
+Object-Relational Mapping(ORM)
+
+back-end developers focus on the functionality that keeps websits, cloud apps and mobile apps up and running
+Back-end development covers a wide range of technology
+Managing user accounts
+Authentication and authorization 
+Secure Storage and handiling of senstive
+Back-end developres work with databses, retriving, processing and storing data.
+
+extension 
+color highlight
+
+ant bhala to sabha to sab bhala 
+
+I am a 2nd year Btech Cse undergraduate at Parul University. I am actively looking for some good GSoC organisations to contribute. I actively contribute to open source projects. I am interested in Web development and have worked with Js.
+I saw your github profile on System github page and thought of asking you if System can be a good organisation for me to Start. If yes please guide me how to begin and let me known how can i contact you for further help. I will be free by december as currentrly I have my exam so I can start then
+here is my github profile
+
+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
+thank nephew grace edge mushroom foster grunt elbow toss gasp talk end
+web 3.0
+NFT 
+digital realstate
+future of internet
+semantic seo
+metaverse
+blocktopia metaverse GEM
+industry 4.0
+
+metaspoils - largest metaverse by zilliqa
+5g Network 
+Edge computing
+ar/vr extended reality xr
+tokens
+blockchain
+laser
+PFP Utility Kit Release
+
+Become your NFP in livestreams and use them in Daz Studio, Unity, Unreal, Blender, and more.
+cryptopunk  top 10 most expensive nfts ever sold
+
+for nft
+mintable.app
+rarible.com
+foundatation.app
+wazrix.net
+opensea.io
+
+cryptowallet
+metamask
+coinbase Wallet
+WalletConnect
+Fortmatic 
+
+
+
+blockchain
+	flash loans
+	trading bots 
+	defi
+JAVASCRIPT
+TYSCRIPT
+SOLONA
+rust
+
+Smart Contracts - Solidity 
+ Ganache - to setup local blockchain network
+ Truffle - development env on EVM, 
+ Web3js - library which allows you to connect to local or remote ethereum node using HTTP/Web sockets
+ Metamask - used to access your wallet on the ethereum by web browser through an extension
+sas and vr development
+
+Web3 is a natural progression where cryptocurrency and other services operate on what's called the blockchain or distributed networks.
+web3 is the next version of the internet, where services will run on blockchain.
+web3 is looking to change the way the internet functions only in a much bigger way.
+web3 promises to be more reliable, decentralised with control in the user's hands enable socialising for work and play through the metaverse, and makes it cheaper as well as easier to make payments.
+Previous versions of internet Era?
+web1.0
+	in this stage the internet was created as a distributed set of computers communicating with one another, and sharing the load of managing the network.
+	it worked very well but had one big problem there was no way to make money off it. For instance, a web 1.0 startup called Google had heavy traffic, but could not encash it.
+web2.0
+	In 2001, Google developed AdWords, a pay-per-click, auction-based search adverstising model, backed by search and monetization algorithms.
+	Google's revenues rocketed to $2.7 billion from $87 million in three years when it went public, and now in 2020, it sits on a trillion-dollar valuation.
+	The internet got monetized with stage Web 2.0
+difference between web3.0 and previous versions?
+The cloud platforms or on-premise infrastructure form the foundation for services in Web2, wheres in Web3, all services are built on top of a blockchain.
+The key difference is that the cloud is controlled by giants such as Amazon, Google and Microsoft, and on-premise is controlled by companies/organisations, and is centralised.
+in the case of blockchian, data is distributed across networks and no single entity owns the informaion.
+Web3 is all about a decentralised internet that runs on a public blockchain, which is also used for cryptocurrencty transactions.
+blockchain runs on smart contarcts, which are based on a set of protocols that differ from one blockchain to another.
+web3, blockchain and crypto: How are they linked?
+Blockchain aims at keeping the insights organized as block with cryptographic hash entrusted to make them immutable and secure. 
+Blockchain is paving the way for a more democratic form of internet and it would finally come down to dApps and Smart Contract to automate specific process.
+Hence Crypto players that would offer the best technology the contribute to web3 ecosystem will get the maximum attention.
+Example of the web3 universe is NFTs or non-fungible tokens, which are bought using crypto coins. 
+They might be JPEGs (oversimplification again)
+challange with web3
+	vastness: the internet is huge and it contains billions of pages and the SNOMED CT medical terminology ontology alone includes 370,000 class names, and existing technology has not yet been able to eliminate all semantically duplicated terms.
+	Vagueness: User queries are not really specific and can be extermenly vague at the best of times. fuzzy logic is used to deal with vagueness.
+	Uncertainty: The internet deals with scores of uncertian values. For example, a patient might present a set of symptoms that correspond to may different distinct diagnoses each wih a different probability. Probablistic reasoning techniques are generally employed to address uncertainty.
+	Inconsistency: Inconsistent data can lead to logical contradiction and unpredictive anaylsis.
+
+
+
+
+
+
+
+
+1. Artificial Intelligence
+2. Brain computer interfaces
+3. 3D printing
+4. Living robots
+5. Augmented Reality/ human augmentation
+6. Tactile virtual reality
+7. self driving vehicles
+8. hyperloop
+thank nephew grace edge mushroom foster grunt elbow toss gasp talk end
+9. Hydrogen power
+10. Energy storing bricks
+quantom computing
+controlled fusion
+room temprature superconductors
+affordable mass productions of material such as graphene and carbon nanotubes
+
+
+00:46✅10. Robotics - Robotics is a significant industry that is gaining momentum with time. Some of the core robotics skills you need to possess are Python, Matlab, problem-solving, mathematics, and machine learning. 
+01:44✅9. Augmented Reality and Virtual Reality -  Augmented reality blends real-world elements with virtual ones whereas Virtual reality creates an environment that is fully virtual. Some of the must-have skills for AR and VR are 3D modeling, Software development, and programming. 
+02:34✅8. Big Data and Analytics - Big Data and Analytics allow you to store, process, analyze and make sense of vast amounts of data using cutting-edge technologies. Some of the skills required to master big data & analytics are Hadoop, SQL, Spark, Python, and Excel. 
+03:32✅7. Quantum Computing - Quantum computing is now a tool that’s changing the face of several industries. To learn Quantum computing, you need to know programming, mathematics, mechanics, scientific computing, and algorithms.
+04:20✅6. 5G networks -  According to the GSM Association, by 2025 5G networks are estimated to have more than 1.7 billion subscribers across the globe. 5G will also enable significant advances in IoT and Virtual Reality. 
+05:11✅5. IoT - The Internet of things is fast becoming an integral part of our lives. The top-in-demand IoT skills are Machine learning & AI, Python & JavaScript, Big Data, and Node.js. 
+06:09✅4. Cyber Security - The onset of the covid 19 pandemic has served as a trigger for a rise in the number of cyberattacks across the globe. Hence, the field of cyber security holds paramount importance in today’s times. To work in this field, skills like knowledge of operating systems, networking, virtualization, and programming are beneficial. 
+07:03✅3. Blockchain - Blockchain is one of the contemporary technologies with a bright future. Blockchain developers need to know concepts like cryptography, data structures, and computer networking. 
+07:50✅2. Cloud Services -  Cloud computing will be at the forefront of all technologies. For a successful career in cloud computing, you need to have knowledge of databases, programming, Linux, networking, and APIs. 
+08:40✅1. Artificial Intelligence -  AI is playing a great role in medicine, manufacturing, education and Mobility. Some of the skills you need are Python Programming, Mathematics, Machine Learning, and Deep Learning. 
+00:32✅Web Development - A Web development course includes aspects such as web design, web programming, and web publishing. The skills you will learn in this course are HTML, CSS, Javascript, Bootstrap, React, and more. 
+01:18✅Cyber Security -  A good cyber security course will further help you to work as a Network Administrator, systems administrator, IT manager, security engineer, security consultant, etc. 
+02:08✅Big Data course - By enrolling in a big data course, you’ll learn big data frameworks such as Hadoop and the Real-time processing framework - Apache Spark. 
+03:16✅Blockchain Developer - By learning Blockchain, you’ll understand how Blockchain technology works, Ethereum, Solidity, Hyperledger, Smart Contracts and learn to build production-ready apps. 
+04:16✅Digital marketing course - A good digital marketing course will help you learn SEO, SEM, Web Analytics, Social Media Marketing, Content Marketing, and Email Marketing. 
+05:13✅Python Programming course - A Python course will help you learn the basics of Python programming such as data structures, loops, and functions, programming concepts along advanced topics.
+06:16✅Project Management -  A PMP certification course will help you achieve the project management knowledge and skills required to manage an entire project on your own. You will learn how to plan, manage, execute, and control projects. 
+07:22✅Data Science - If you are looking for a career in data science, then sign up for a course that covers all the in-demand data science skills such as Programming, Statistics, Data Visualization, Exploratory data analysis, and Machine Learning. 
+08:26✅AI and Machine Learning courses - AI and Machine Learning are two of the biggest and most popular technologies of the 21st century. By enrolling in this course, you will be trained in Machine Learning algorithms, Deep Learning, Artificial Neural Networks, as well as Natural Language Processing. 
+09:33✅Cloud Computing - A cloud computing course will walk you through the general cloud computing concepts, and give a solid foundation of cloud computing platforms such as AWS, Microsoft Azure, and Google Cloud Platform.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web Development $62k-$158k   or rs 13.7L-30L
+	python
+	node.js
+	html
+	c++
+	javascript
+	angular
+
+CyberSecurity $84k-$164k   or rs 5L-40L
+	CompTIA Network+ Certification
+	CISSP Certification
+	Cisco Certification
+	CCNP Certification
+
+ROBOTIC PROCESS AUTOMATION  $88k-$140k   or rs 7L-20L
+	BluePrism
+	UIPath------UIPATH ACADEMY 
+	Automation  Anywhere
+	Automation TEsting
+	
+Big Data $121k-$251k   or rs 12.3L-33L
+	Analytics Professional Credential Certicication
+	Business Issue ---- Framing
+	Analytic Problem ----- Framing
+	CCP Data Engineer
+		Ingesting
+		Transforming----Framing
+		Storing & Analyzing-----data in Cloudera's CDH environment
+
+Digital Maketing $60k-$160k   or rs 7L-16L
+	SEO
+	PPC
+	Web Analytics
+	Content Marketing
+	Social Media
+	Google Ads Certification
+	Google Analytics Certification
+	Hubspot Content Marketing
+
+Data Science $115k-$246k   or rs 8.2L-20L
+IBM's Data Science Professinal
+HarvardX's Data Science Professinal
+
+
+Cloud Computing $145k-$227k   or rs 16L-24L
+AWS Certified Solution Architect-Associat
+Microsoft certified azure administro
+
+AI Machine Learning $140k-$386k   or rs 6L-20L
+	Stanford Certified Machine Learning AI certificated
+
+System Analyst $145k  or rs 16L
+Test programs and Databases
+Run Security Audits and Document on Systems
+Analytical skills
+Data Analysis and Programming Skills
+Technical Analysis and Project Management
+
+Blockchian Engineering $150k  or rs 15L
+	Solid Programming Skill
+	Through Understanding of the Technologoies Behind Ripple, R3, Ethereum and Bitcoin	
+	Consensus Methodologies and the Security Protocol stacks
+	Crypto Libraries and Functions
+
+
+Product Manager $160k  or rs 25L
+A Strong Understanding of Product LifeCycle Management(PLM)
+Knowledge of Product management Tools like PivotalTracker, JIRA, and Asana
+Strong Analytical and Time Management skills
+Strategic and Tactical Goals and Objectives
+Building a Product Portfolio
+Managing and Implementing Marketing Activities
+Contributing to the Product Strategy and it's vision
+
+
+Full Stack Developer $164k  or rs 11L
+Technologies such as MongoDB, Express.js, AngularJS, and Node.js
+How to Design and Develop an API
+Coding and Scripting
+The Fundamentals of Web Development
+Basics of Database Technologies
+
+Devops Engineering $170k  or rs 11L
+Planning->Support->customer Satisfaction->Productivity
+Coding and Scripting
+Understanding Development and Network Operations
+Familiarity with DevOps Tools like Git and Jenkins
+Knowledge of Linux or Unix System Administration
+Designing and Maintaining a Develoyment Infrastucture
+Integrating Cloud Services
+Shell Scripting in PHP/Python and Ruby
+
+
+Data Science $184k  or rs 15L
+Understand Machine Learning Algorithms
+Create Data Models
+Code in Language like python, R, SAS and Other Analytical Tools
+Identify Business Issuses and Provide Appropriate Solutions
+Excellent communication
+
+Cloud Architect $197k  or rs 26L
+Understanding of Cloud Application Architecture
+Knowledge of AWS, Azure or Google Cloud Platfrom
+Good Knowledge of at Least Operstaing System
+Computer Programming Languages
+Security
+Good Communication Skills
+Developing Cloud Architecture and Cloud Strategy
+Coordination the Implementation and Deployment of it
+Ensuring Application Architecture and Deployments in the Cloud Environment are Done Properly
+
+Iot Solution Architect $200k  or rs 10L
+Strong Programming Skills
+Understanding of Machine Learning
+Knowledge of Hardware Design and Architecutre
+
+Ai Architect $230k  or rs 63L
+Solid Programming Skills and know Python, R and Torch
+Understand how TensorFlow and Other Similar Technologies work
+Understanding Technology Relatex to AI, Incuding ML, Neural Networks and Deep learning
+
+Software Architect $264k  or rs 45L
+Designing, Developing and Implementing Software Solutions
+Providing Technical Leadership
+Data Modeling
+An Understanding of Software Architecture
+Good Programming Skills 
+Strong Analytical Skills
+
+
+Data Analyst Skills
+SQL and MS Excel
+Data Cleaning and Wrangling
+Maths and Statistics
+Programming - Python or R
+Data Visualization - Tableau or Power BI
+
+https://www.simplilearn.com/learn-blockchain-basics-skillup?utm_campaign=Top5ReasonsToLearnBlokchainIn2022Shorts&utm_medium=ShortsDescription&utm_source=youtube
+ 
+blockchain
+
+Promising Carrer
+Diversity of Job Roles
+The Inflection Point of an Era
+New Age Technology Integration
+Digital Identity
+High Demand for Blockchain Technology
+Career in CyberSecurity
+Cryptocurrencies and ICOs
+Transparency and Improved Governance
+Entertainment for all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ https://www.dailyui.co/
+www.internetlivestates.com
+https://sqliteonline.com/
+https://www.submarinecablemap.com/
+www.cloudflare.com
+www.ui-patterns.com
+www.dribbble.com
+www.sneakpeekit.com
+www.balsamiq.cloud
+https://github.com/twbs/bootstrap
+https://bootsnipp.com/
+https://stanford.edu/~cpiech/karel/ide.html
+hyper.is
+https://kanye.rest/
+https://api.kanye.rest/
+https://sv443.net/jokeapi/v2/
+https://api.openweathermap.org/data/2.5/weather?q=vadodara&appid=518d47bcf99733f9e57bda07d5ce8da2
+https response code
+https://httpstatusdogs.com/
+https://cryptii.com/pipes/hex-to-text
+npm install express
+npm install -g nodemon
+npm install body-parser
+
+npm init
+npm install body-parser express request
+
+dradata
+displine 
+
+right path
+consecentecy
+
+
+
+
+
+
+Strengths 
+I am a Self Learner, Self Confidant and parallel multitasker
+Weakness i go to sleep
+and Too sensitive in certain situations.
+
+Just leave
+
+Hello Google, I am Ratan Prajapati. Basically I am From Madhya Pradesh, India. But currently I am Pursuing My Btech Specialization in Cyber Security in Parul University Vadodara Gujarat
+I have been very much excited to learn new things and when it comes to technology I get super excited I believe in the ideology that we grow together I always try to help the people around me with whatever resources for us .I have seen many students who are completely unaware of the new technology and it might have the will but they lack the proper guidance and don't have a property to guide them 
+
+I am always passionate for helping others and making a used in society in the field of Technology being a boy from urban area of was not much familiar about the latest technologies but i am curious to learn and teach them all and to know about algorithms  so it will be easy for him to learn how to implement his ideas in building new technologies I will provide within two years and establish effective communication protocols and constantly motivate them for the little things 
+it will give me apart to learn about The arising Technologies to ideas it will provide user sources and platform to help them all the main thing of being a serious delayed is to help my peers in the king is strong communication skills leadership qualities and teamwork which is as beneficial as technical skills thank you  I strongly believe that Google developer student club will make it possible as it can create a great impact on any community 
+GDSC will help me sharing my knowledge and experience with us we will provide you specific skill and we will work on a specific fields by involving and creating ideas of a team member and this will also help us in on technological fields as in terms of work and to be active listener creative thinker and a good speaker and my main goal is to motivate my colleagues to think innovating and out of the box to do something new and creative with the help of GDS. I consider myself to be perfectly capable of starting a Google developers student club thank you.
+
+
+
+
+
+win + ctrl + D  == Add a Virtual Desktop
+win + ctrl + →  == Switch to the Virtual Desktop right
+win + ctrl + ←  == Switch to the Virtual Desktop left
+win + R   PSR   == Step Recorder
+
+
+
+
+Introduction to Java
+Most popular language created in 1991, publicly released by 1995
+Developed by James Gosling at Sun Microsystems
+Java was later acquired by Oracle
+Simple and Easy to use
+Write Once and run anywhere
+
+Usage
+Web Development, Desktop Development, Mobile Development, Game Development, Distributed Processing
+
+Features of Java
+Robust,secure,multi-threading,garbage Collector,Object Oriented, Platform Independent, Strong Type-checking, Compile&interpret
+
+
+
+
+Maven -- why do we use Maven ?
+Maven is chiefly used for Java-based projects.
+The tool helps in building the code downloading
+dependencies,The tool is used to build and
+manage any Java-based project.It simplifies the
+day to day work of Java Developers and helps
+         them in their projects
+Maven helps in getting the right JAR files for
+each project as there may be different versions
+         of separate packages.
+ To download dependencies it is no more
+ needed to visit the official website of each
+software.It could now be easily done now by
+      visiting"mvnrepository.com"
+
+What is Maven ?
+Maven isapopular open-source build tool
+developed by the Apache Group to build,
+publish,and deploy several projects at once
+Maven is written in Java and is used to build
+projects written inC#,Scala,Ruby,etc.
+The tool is used to build and manage any
+Java-based project.It simplifies the day to
+day work of Java Developers and helps
+them in their projects
+
+Maven is based on Project Object Model
+(POM)and focuses of simplification and
+standardization of the building process
+In the process,it takes care of the following:
+Builds
+Dependencies
+Reports
+Distribution
+Releases
+Mailing list 
+
+Maven Repository
+Maven repositories refer to the directories
+of packaged JAR files that contain
+metadata.The metadata refers to the POM
+files relevant to each project.This metadata
+is what allows Maven to download
+dependencies
+There are three types of repositories:
+1. Local Repository ex - your PC
+2. Remote Repository ex - any server
+3. Central Repository ex - Internet
+
+Local Repository -- Local Repository refers to the machine of
+  the developer where all the project
+material is saved.This repository contains
+        all the dependency jars
+Remote Repository -- The Remote Repository refers
+to the repository present ona
+ web server which is used
+   when Maven needs to
+download dependencies.This
+repository works same as the
+Central Repository.Whenever
+  anything is needed from
+Remote Repository it is first
+ downloaded to the Local
+Repository ad then it is used
+
+Central Repository -- Central Repository refers to the Maven community
+ that comes into action when there isaneed of
+dependencies,and those dependencies cannot be
+found in the Local Repository.Maven downloads
+    the dependencies from here in the Local
+          Repository whenever needed
+
+Basic concept of Maven --- Project Object Model (POM)
+Project Object Model(POM)refers to the
+XML files that have all the information
+regarding project and configuration
+details
+It has the description of the project,
+details regarding the versioning and
+configuration management of the project
+The XML file is in the project home
+directory.Maven searches for the POM in
+the current directory when any task is to
+be executed
+
+Dependencies and Repositories -- Dependencies refer to the Java libraries
+that are needed for the project.
+Repositories refer to the directories of
+packaged JAR files
+If the dependencies are not present in
+your local repository,then Maven
+downloads them fromacentral
+repository and stores them in the local
+repository
+
+Build Life Cycles, Phases and Goals -- Build Life Cycles consist ofasequence of
+build phases,and each build phase
+consists ofasequence of goals
+Each goal is responsible foraparticular
+task
+Whenaphase is run all the goals related
+to that phase and its plugins are also
+compiled
+
+Build Profile -- Build Profiles refer to the set of
+configuration values,that are required to
+buildaproject using different
+configurations
+Different build profiles are added to the
+POM files when enabling different builds
+Abuild profile helps in customizing build
+for different environments
+
+Build Plugin -- Maven Plugin refers to the group of
+goals.These goals may or may not be of
+the same phase
+The plugins are used to perform specific
+goal
+Maven has its own standard plugins that
+can be used.If wanted,we can also
+implement our own in Java
+
+
+Maven Architecture
+	Read pom.xml 				pom files
+Maven ----------------→ Dependencies,Plugins,Life_Cycles_Phases_and_Goals,Build_profile ------→ Maven_Repository
+
+
+How does it work:
+Read pom.xml file
+Download dependencies defined in
+pom.xml into local repository from central
+repository
+Create and generateareport according to
+the requirements,and execute life-cycles,
+phases,goals,plugins etc.
+
+
+
+Maven Build Life cycle 
+Maven life cycle isacollection of steps that
+are to be followed to buildaproject
+There are three built-in build life cycles:
+ •Default:handles project deployment
+ •Clean:handles project cleaning
+ .Site:handles the creation of project site's
+   documentation
+
+The Build Life Cycle has different build
+        phases or stages:
+
+Compile
+↓
+Test-compile
+↓
+Test
+↓
+Package
+↓
+Integration-test
+↓
+Verify
+↓
+Install
+↓
+Deploy
+
+Advantages of Maven
+Apache Maven helps manage all the
+processes,such as building,documentation,
+releasing,and distribution in project
+management
+The tool simplifies the process of project
+building.It increases the performance of the
+project and the building process
+The task of downloading Jar files and other
+dependencies is done automatically
+Maven provides easy access to all the
+required information
+Maven makes it easy for the developer to
+buildaproject in different environments
+without worrying about the dependencies,
+processes,etc.
+In Maven,it is easy to add new
+dependencies,you must write the
+dependency code in the pom file
+
+
+mvn --version
+mkdir temp
+cd temp
+mvn archetype:generate
+choose of number 8: 5
+groupId : com.simplilearn
+artifactId : sampleproject
+version 1.0-SNAPSHOT
+package com.simplilearn
+
+ls -alrt
+cat pom.xml
+vi pom.xml
+mvn clean install
+
+JEKINS
+Software Development → Continuous Delivery → Continuous Integration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Web Architecture
+Web Architecture is made up of three essential elements.   Website,Server, Ip Address
+Website- Your browser starts by loading the main HTML file, and then the CSS and JavaScript
+User interacts with the website and is not concerned with the backend of a web application
+Server - Once you've developed your websites.you need to host it on a server to make it accessible on the internet.
+Server, along with the database contains all the data of a website and facilitates user interaction.
+Ip Address -- Websites is hosted on an IP Address
+We put a domain name over that IP address, the same way we put names over people's phone numbers
+HTML - html is the most widely used language for developing web pages.
+It defines the structure of websites and formants web pages.
+CSS -- css is a simple design language used for making web pages look good and presentable
+it can be attached to any HTML elemetn and style it or even position it according to developer's choice.
+JavaScript-- Javascript is a powerful, interpreted language targeted for web development 
+It is used 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.figma.com/
+https://dribbble.com/
+microsoft hollolance 
+vishal shah metaverse head 
+https://favicon.io/logo-generator/
+https://css3buttongenerator.com/
+
+
+
+
+I am student. I want to learn Android Develelopment in this courses. after learning these topic I will build some fronted view of website and explore developing websites. i want to learn hands-on skills to work with XML , Kotlin and Cloud. after this courser i want to learn cloud developer part or framwork , elctron js mongo.db, react.js. I will become a Android  developer. so i build another programm. in this course i learn Understand the Cloud Development Ecosystem and Terminology like front-end developer, back-end, server-side and also learn Become familiar with the developer tools and IDEs used by web programmers and Work with programming languages used by front-end developers for creating user interfaces. this course will leadme through the languages and tools i will need to develop your own Cloud Apps. in this tutorial SKILLS I will gain cloud,xml,Git (Software),java,Cloud Applications. in this course i am learning about the  android basics
+Thank you
+
+
+
+
+
+I am Ratan Prajapati from Madhya Pradesh India. currently I am Studying in Btech CSE 2nd year in Parul University vadodara Gujrat India. My Father's name is Chhaviram Prajapati. He is a Labour Person. He is only sourse of income in my family. and income very less. We are six members in my family. it is very difficult to my studying for this courses payment.  but i want to learn frontend development I want to learn Html,Css and JavaScript for frontend developer. As a student it's my investing period on me, no source of income though. Now I'm fully depending on my family that doesn't make me feel good. I believe there will be a time I'll earn much and will be capable enough to repay my loan. So, applying for financial help for study purpose can bring self financial responsibility and solvency. That's why I'm doing so. and i have some financial issues so i can not effort for this courses money therefor i am applying for this course on financial aid. so please procees the request. so i can learning web development.
+
+I am student. I want to learn HTML, CSS, JAVASCRIPT in this courses. after learning these topic I will build some fronted view of website and explore developing websites. i want to learn hands-on skills to work with HTML, CSS and JavaScript. after this courser i want to learn backend developer part or framwork like node.js, elctron js mongo.db, react.js. I will become a full stack developer. so i build another programm. in this course i learn Understand the Cloud Development Ecosystem and Terminology like front-end developer, back-end, server-side and also learn Become familiar with the developer tools and IDEs used by web programmers and Work with programming languages used by front-end developers for creating user interfaces. this course will leadme through the languages and tools i will need to develop your own Cloud Apps. in this tutorial SKILLS I will gain Cascading Style Sheets (CCS),Html,Git (Software),JavaScript,Cloud Applications. 
+Thank you
+
+I am Ratan Prajapati from Madhya Pradesh India. My Father is a Labour. He is only sourse of income in my family. and income very less but i want to learn frontend development.so please procees the request. 
+so i can learning web development.
+As a student it's my investing period on me, no source of income though. Now I'm fully depending on my family that doesn't make me feel good. I believe there will be a time I'll earn much and will be capable enough to repay my loan. So, applying for financial help for study purpose can bring self financial responsibility and solvency. That's why I'm doing so.
+
+
+
+
+
+
+
+
+Here are some project ideas ,like this comment for good reachability to view more peoples
+1.Android Based Security system using Biometric and Face Detection.
+2. Mobile Based Online Examination.
+3. Vehicle Defect Tracking System.
+4. Travel Guide App (Show Smallest Routes and Historical Places)
+5. Diseases Identification Using Machine Learning.
+6. People Count at temples/gurudhwara/masjid etc Using Machine Learning.
+7. Density Based Traffic Signal System.
+8. Connecting Clinics and Doctors Online. (for pharmaceutical).
+9. Family Tracking or Safety System.
+10.Food Wastage Reduction App.
+11. Distance Measurement APP
+12. Health Fitness APP
+13. Expensive Saving APP
+14. Data Sharing App like Zapya 
+15. Augment Reality base app for Logistics (DHL  |Daraz)
+16.Object Deduction 
+17.Human Pose Deduction 
+18.Ducment Clustering Analysis 
+19.Sentiment | Activity | Positive / Negitive Mining 
+20.ChatBots
+21.Suspicious Activity Deduction 
+22.Recommendation System 
+23.Logger Catagrization 
+24.Siri-base Solution 
+25.Road- Vehicle and Load Blancer
+26.Automitic Load divider System 
+27.Heart /Dieases Prediction System 
+28.Flicker 
+29.Smart Home Control Using IOT and IOS
+30.Location base Attencdence System
+31.Data Skrapping For E-Commerce Business 
+32.Online Tickting System For Company
+
+aap socho ki ye nyay hai ki nahi ki jo jis raste par jana hi nahi chahata nature kyo jabarjasti bheje ji jisne na sona socha na hira socha na emrald socha.  jisne socha hi nahi usko nahi milta bhai purani file delete kar de software khol de or isme ghusa kush jisse amiri aaye ghuse bina amiri ayegi nahi sochane se amiri ayegi
+
+three quetions ask yours
+who i am right now,
+What i want to became in life,
+How will i reach there,
+ Aware :- How many people aware of your brand?
+Appeal :- How manyu people like your brand?
+Ask :- Hom many people inquire about your brand?
+Act :- How many people evntually bought your product?
+Advocate  :- how many people became your brand ambassador?
+it is not about how many people know you, it is about how many people trust you
+
+weak brand compaign:- Improve your Marketing communication
+Bottleneck in Decision Making:- Do content Marketing
+Weak Sales Team/ Distrubution Network/CRM:- Team Trainging Build Distribution Networks
+Bad Product Quality No Incentive for Loyalty and Reference:- Improve your Product in such a way that your Customer becomes your Promoter Referral scheme to Build Loyality
+agar aap grahak ki sunenge to grahak apko hi chungenge
+what do you stand for? what should you be known for
+grahak ka rishta tab tak khas hota hai jab tak usko dukandar par biswas hota hai
+when you serve the customer better, they always return on your invesrtment
+teh raho pahle raho lekin kabhi akele mat raho
+apne aapko upar dekhne ki bajay apko dusro ko upar uthne me madad karni chahiye
+
+non-seasonal businees
+sadharan log ek saath mil ke ashadharan chize hasil kar skate hai
+low investemet high profit
+agar aap franchiess ki sunenge to franchiese apko hi chungege
+problem
+product
+position
+proces
+prfit
+
+

@@ -1,0 +1,1519 @@
+sudo apt install gedit
+
+
+sudo apt full-upgrade -y
+sudo -s
+df -H
+sudo gparted
+
+	$ iwconfig
+	$ ifconfig
+	$ ifconfig wlan0 up
+	$ airmon-ng help
+	$ airmon-ng start wlan0
+	$ sudo NetworkManager restart
+	$ sudo apt install gnome-control-center
+to know the present user
+	$ whoami
+to know the present user id
+	$ echo $UID
+some details(first download screenfetch if not there)
+	$ sudo apt install screenfetch
+	$ screenfetch
+to know the present running desktop environment
+	$ echo $XDG_CURRENT_DESKTOP
+for installing gnome(gdm3)
+	$ sudo apt update && sudo apt install kali-desktop-gnome -y
+for installing sddm
+	$ sudo apt install sddm
+	$ sudo dpkg-reconfigure gdm3
+	$ sudo reboot
+	$ poweroff
+
+
+
+
+Using speedtest-cli to Test Internet Speed
+sudo apt install speedtest-cli
+speedtest
+Using fast-cli to Test Internet Speed
+
+
+print working direcotory
+	$ pwd
+change directory
+	$ cd..
+current and up in /document
+	$ ls -l
+list the files & directory
+	$ ls -a
+display control of file
+	$ cat mytext.txt
+by default print first to lines of files
+	$ head mytext.txt
+print last few number of lines
+	$ tail mytext.txt -n 100
+moving or rename file -mv
+	$ mv myfile.txt destination/newFilename
+make directory
+	$ mkdir myword
+copy the file
+	$ cp originalfile.txt newfile.txt
+remove directory 
+	$ rmdir directoryName
+to create and open a new file
+	$ gedit abc.txt
+display text on the screen
+	$ echo "hello"
+clear entire screen
+	$ clear
+display user id
+	$ whoami
+word count can return nubmer of lines,words,character in file(print byte count)
+	$ wc -c myfile.txt    (print byte count)
+	$ wc -l myfile.txt    (print line count)
+	$ wc -w myfile.txt    (print word count)
+search for the term
+	$ grep "hello" myfile.txt
+or
+	$ cat myfile.txt | grep hello
+display ram details in linux
+	$ free
+send o/p of one command as i/p to another command
+	$ ls -l / grep "AUG"
+cat,nano, getdit, vi
+-i   for non-case sensetive
+-A2   after upto 2 line
+-B2   before upto 2 line
+	$ gedit abc.sh        
+in file write     	echo "HELLOWORLD"
+			read a               for input
+			echo $a              for output
+	
+	$ sudo apt-get install myunity
+if you want to update your system,run
+	$ sudo apt-get update
+	$ sudo apt-get dist-upgrade
+if u still get lock error try this command it will give the process details
+	$ ps -e | grep -e apt -e adept | grep -v grep
+then kill the process using proces id then execute the update command
+also u can delete this file your problem will solve
+	$ rm /var/lib/dpkg/lock
+for checking kali linux version
+	$ lsb_release -a
+	$ cat /etc/os-release
+	$ cat /etc/*release
+hostnamectl command #
+	$ hostnamectl
+what version of the linux kernel is running on your system,
+	$ uname -srm
+sudo systemctl start bluetooth
+Update Kali Linux
+	$ apt update
+Download Google Chrome Package
+	$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+Install Google Chrome in Kali Linux
+	$ apt install ./google-chrome-stable_current_amd64.deb
+Launching Google Chrome in Kali Linux
+	$ google-chrome --no-sandbox
+the tar command is used to maintain, create modify, and extract files that are archieved in the format
+	$ tar -vxif compacr-wireless-2010-06-26-p.tar.bz2
+it is to show the extracting files
+	$ -v
+it is to extract the files
+	$ -x
+it is to read or write archieves using the bzin2 compressor
+	$ -j
+it is to use archive file or device ARCHIVE for extraction
+
+in linux any folder starting with .(dot) it will be a hidden folder
+
+sudo apt-get upgrade gnome-control-center
+for setting not showing or not working
+for online account not showing
+sudo apt install gnome-control-center gnome-online-accounts
+gnome-control-center online-accounts
+website information gain access
+
+Whois Lookup - Find info about the owner of the target
+
+https://whois.domaintools.com/codewithharry.com
+
+Netcraft Site Report - Shows technologies used on the target.
+https://sitereport.netcraft.com/?url=www.codewithharry.com
+https://www.exploit-db.com/
+
+Robtex DNS lookup - Shows comprehensive info about the target website.
+https://www.robtex.com/dns-lookup/www.codewithharry.com
+https://www.robtex.com/oldindex.html
+https://github.com/guelfoweb/knock.git
+
+
+Subdomain.target.com
+Knock can be used to find subdomains of target
+
+Download it                   > git clone https://github.com/guelfoweb/knock.git
+2. Navigate to knock.py.      > cd knock/knockpy.py
+3. Run it                     > python knockpy.py codewithharry.com
+
+
+● One server can serve a number of websites.
+● Gaining access to one can help gaining access to others
+To find websites on the same server:
+1. Use Robtex DNS lookup under “names pointing to same IP”.
+2. Using bing.com, search for ip: [target ip]
+● IP address.
+● Domain name info.
+● Technologies used.
+● Other websites on the same server.
+● DNS records.
+● Unlisted files, sub-domains, directories.
+
+
+● Find files & directories in target website
+● A tool called drib.
+	 > dirb [target] [wordlist] [options]
+For more info run
+	 > man dirb
+
+Maltego is an information gathering tool that can be used to collect
+information about ANYTHING.
+To run maltego type the following in terminal
+ 	> maltegoce
+
+
+
+for creating wordlist password(for dictonary attack)
+	$ man crunch
+	$ crunch 6 8 abc16 -o test.txt  d@@@@j
+	$ touch filename    create file or folder
+	$ echo How are U > filename
+	$ nano file1
+	$ cat file2
+	$ nano file3.py
+	$ pythone3 file3.py
+	$ rm file.txt
+	$ rm -r folder/directoryname
+	$ rm * -r    remover all file or folder in cur directory
+	$ cp file3.txt /Desktop/folder/python.py
+	$ ping facebook.com
+	$ nslookup facebook.com
+	$ whois flipkart.com
+	$ whatweb
+	$ whatweb --help    for more information
+	$ whatweb flipkart.com
+	$ whatweb flipkart.com -V
+	$ whatweb 192.168.1.1-192.168.1.255  --aggression 3 -v
+	$ whatweb 192.168.1.1-192.168.1.255  --aggression 3 -v --no-errores
+result is a file name where store the contents
+	$ whatweb 192.168.1.1-192.168.1.255  --aggression 3 -v --no-errores=results
+
+email gatherings information
+website   hunter.io
+
+	$ theHarvester
+	$ theHarvester --help
+	$ theHarvester -d facebook.com -b all
+
+information gathering tools github
+	$ git clone https://github.com/Tuhinshubhra/RED_HAWK
+download and then opne and run like php file.php
+
+
+finding username using sherloac
+	$ git clone https://github.com/sherlock-project/sherlock
+download and then opne and run like php file.php
+
+bous email scarper tool in python
+	$ python3 email-scarper.py
+enter url    https://mas.bg.ac.rs
+	$ sudo arp -a
+	$ sudo netdiscover
+	$ netstat -nr      for router ip address
+
+performing first nmap
+	$ nmap
+	$ nmap 192.23.51.110
+	$ sudo nmap -sS 192.165.153.110
+or
+	$ nmap -sT 192.165.153.110
+	$ sudo nmap -O 192.165.153.110       operating system details
+
+thus, you command should be
+	$ sudo apt-get install myunity
+if you want to update your system,run
+	$ sudo apt-get update
+	$ sudo apt-get dist-upgrade
+this will update your system's packager database and then install any upgrades.
+
+
+uipath
+cosmant   rpa
+cisco networking
+microsoft azure
+future prime skills
+
+wifi adapter
+aircrack-ng , airmon, aireplay, airodump ,wireshark 
+
+scrcpy
+
+iwconfig
+man airmon-ng
+sudo airmon-ng check
+sudo airmon-ng check kill
+
+convert into moniter mode
+
+sudo airmon-ng start wlan0mon
+sudo airodump-ng wlan0mon
+sudo airodump-ng --bssid D8:5D:4C:AF:F8:A6 -c 9 wlan0mon -w filename
+
+new termonal
+
+sudo aireplay-ng --deauth 0 -a D8:5D:4C:AF:F8:A6 wlan0mon
+
+in wireshark 
+eapol 
+
+all wordlist
+dirb dirbuster seclists nyael
+
+cd /usr/share/wordlists
+
+sudo aircrack-ng   filename -w.usr/share/wordlists/seclist////
+
+then conver managemod
+
+sudo airmon-ng stop wlan0mon
+
+default ip  192.168.0.1
+
+password manager
+
+how secure my password
+havibeenbond
+data breaches
+
+
+
+git command
+ls -la
+ls
+ls -l
+
+$ git --version
+$ git config --global user.name "Ratan Prajapati"
+$ git config --global user.name
+$ git config --global user.email
+$ git config --global --edit
+$ pwd
+$ mkdir letsLearnGit
+$ git init
+$ git status
+$ git add sum.java
+$ git commit -m "initial commit"
+$ git log
+$ git log -p
+$ git add .  or $ git add -A                      for all file commited
+$ git commit -m "add sum.java"
+for switching branch
+$ git checkout master
+$ git branch
+$ git branch -v
+$ git checkout -b ratan/multiply
+$ git merge dev
+$ touch .gitignore
+git branch -D branchname
+$ git remote -v
+$ git remote add origin https://github.com/DJRATAN/gitturorial.git
+$ git branch -M main
+$ git push -u origin main
+$ git clone https://github.com/DJRATAN/First-Contribution.git
+$ git log -p -1
+$ git diff
+$ git add -A
+$ git status -s
+git init
+ls -ltr
+git add .
+git commit -m 'initial commit'
+git push origin master
+git rm --cached -r        for removing all files
+git stash
+git stash pop
+git slash clear
+$ notepad master.txt
+to set ssh key
+$ ssh-keygen -t rsa -C ratanprajapati1242@gmail.com
+to check connected or not
+$ ssh -T git@github.com
+git branch New_Branch
+git checkout New_Branch
+git push -u origin New_Branch
+git branch -av
+git merge New_Branch
+git branch -D New_Branch
+git push origin -delete New_Branch
+git restore --staged file.txt
+git -rf file.txt
+$ git blame file.java
+$ git blame -L 1,4 index.py
+$ git blame -l index.py
+
+
+
+cdn = content devilary network
+mkdir story
+cd story
+touch file.txt
+ls -a            // showing all hidden file
+open file.txt
+vim file.txt
+open file.txt
+git init
+git status
+working directory -> git add     = Staging Area -> git commit = Local Repository(.git) -> git push = Remote Reposityory(github)    -> Git clone
+$ git log --pretty=oneline
+$ git revert eb416c7c21bf7178399abd63ccd58056cc76f7bd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gcloud auth list
+gcloud config list project
+gcloud compute project-info describe --project 
+export PROJECT_ID=
+export ZONE=us-central1-a
+gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone $ZONE
+
+
+
+materail theme,icon
+cobalt2 theme
+winter is coming theme
+shades of purple
+live server
+tabnine Autocomplete AI java
+prettier Code formatter
+gitlens git supercharged
+code spell checker
+custom css an js loader
+user snipped toggle ScreenCast
+
+
+flipkart - runway
+microsoft -engage
+google - step
+jpmorgon js for code
+internship drive
+goldman,mintra,
+
+
+magnifier app
+currenty I am doing full time intern as Technical Support along with own studies with compromising learning new things as the same thing I will mangage NSSC role Technical Head without compromising
+Yes, we have worked in Smart India Hackathon Aug 2022 as a Volunteer and Technical Head. in this Hackathone We were Leading the all community, participant. we provided best solution for student those was facing any such kind of problem.
+
+
+In, 1973 NIST or National Institute standared Technology issues a public request for an ecryption algorithm.
+Criteria --
+		A high level security
+		Be easily understood
+		Adaptable and economical
+		Efficient and exportable
+
+In, 1974 IBM submitted Lucifer. 
+Lucifer Encryption Alogrithm 
+A block cipher developed by Feistel and his colleagues.
+Lucifer was evaluated by National Security Agency who then reduce the key length from 128 bits to 56 bits and changed the inner working.
+This then became the Data Encryption Standard or DES and was adopted in 1977 as the government standard for Encrypting data. It's also known as Data Encryption Algorithm or DEA.
+The publication of DES prompted a lot of research into cryptography.
+DES Algorithm
+A minor variation of the Feistel cipher
+Encrypts a 64-bit block of data using a 56-bit key
+From the 56-bit key, 16 subkeys are generated
+Goes through 16 rounds of processing
+
+Security of a Symmetric Cryptosystem.
+Depends on two componets:
+	The algorithm
+	The length of the key
+The longer the key, the better the security
+
+Concerns over Attacks
+a solution was devised to use three iterations of DES, it called triple DES or 3DES.
+Scientists used 3DES.
+3DES has an effective key length of 168 bits and block size of 64 bits.
+It preserved the exitsting investment in the DES software and the drawback is the algorithm is slow.
+Now, 3DES or DES are not considered secure or insecure.
+
+However, they are both still used by some applications.
+ 
+Others symmetric metric block ciphers have been developed.
+
+Blowfish was created by Bruce Schneier and It is Sleek, Simple and fast with a Key that can be up to 448 bits in lenght but typically a 128-bit key is used.
+
+Blowfish is a Feistel algorithm using 64 bit blocks and is free and widely used in applications such as OpenBSD, which is a password hashing alogrithm, and it's actually faster than DES.
+Another Alogrithm International Data Encryption Algorith (IDEA)
+IDEA was developed to replace DES.
+It Operates on 64-bit blocks and uses a 128-bit key.
+One of the few ciphers that is patented and actually requires a license for commercial use.
+
+other algorithms include Twofish, CAST5, RC6, and AES(Advanced Encryption Standard), which is now the national standard.
+
+Now, one of the things with symmetric encryption is that there are challenges in that both sender and receiver must use the same shared key and the security must exist in protecting the key, not the algorithm.
+Now the challenges include the need to change keys often to avoid the risk of compromising the keys and securety generating and distributing the secret keys.
+Symmetric encryption provides fast and efficient encryption, is used for data confidentiality, and is optimized for encrypting large amounts of data.
+
+
+
+
+cookies for grammerly
+
+[
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1673314987,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "isGrammarlyUser",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "true"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1688262187.686262,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "grauth",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "AABLoGJHi-5T-mRpwZ8dxUcyAznWD9VHgVDV6i-FcXP3c3ZG56DWJSenNs0IEWSIv0imesm4L3WI0h-0"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1672731495.69993,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "redirect_location",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJ0eXBlIjoiIiwibG9jYXRpb24iOiJodHRwczovL2FwcC5ncmFtbWFybHkuY29tLyJ9"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1672728274.919,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "4FZWlrzDLT",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "4FZWlrzDLT"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1688279902.304254,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "experiment_groups",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "fsrw_in_sidebar_allusers_enabled|extension_assistant_bundles_all_consumers_enabled|fsrw_in_assistant_all_consumers_enabled|extension_new_rich_text_fields_enabled|gdocs_for_chrome_enabled|officeaddin_outcomes_ui_exp5_enabled1|completions_beta_enabled|premium_ungating_renewal_notification_enabled|kaza_security_hub_enabled|quarantine_messages_enabled|small_hover_menus_existing_enabled|gb_snippets_csv_upload_enabled|grammarly_web_ukraine_logo_dapi_enabled|officeaddin_upgrade_state_exp2_enabled1|gb_in_editor_premium_Test1|gb_analytics_mvp_phase_one_enabled|wonderpass_enabled|apply_formatting_all_consumers_enabled|ipm_extension_release_test_1|attention_score_card_premium_no_iid_enabled|snippets_in_ws_gate_enabled|extension_assistant_experiment_all_consumers_enabled|extension_assistant_bundles_all_enabled|officeaddin_proofit_exp3_enabled|gdocs_for_all_firefox_enabled|shared_workspaces_enabled|gb_analytics_mvp_phase_one_30_day_enabled|auto_complete_correct_safari_enabled|fluid_gdocs_rollout_enabled|officeaddin_ue_exp3_enabled|officeaddin_upgrade_state_exp1_enabled1|safari_migration_inline_disabled_enabled|completions_release_enabled1|extension_assistant_all_consumers_enabled|fsrw_in_assistant_all_enabled|autocorrect_new_ui_v3|emogenie_beta_enabled|apply_formatting_all_enabled|shadow_dom_chrome_enabled|extension_assistant_experiment_all_enabled|gdocs_for_all_safari_enabled|extension_assistant_all_enabled|safari_migration_backup_notif1_enabled|auto_complete_correct_edge_enabled|takeaways_premium_enabled|realtime_proofit_external_rollout_enabled|safari_migration_popup_editor_disabled_enabled|extension_check_manakin_v2_experiment_enabled|safari_migration_inline_warning_enabled|gdocs_new_mapping_enabled|officeaddin_muted_alerts_exp2_enabled1|officeaddin_perf_exp3_enabled"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1673314934.262198,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ga_clientId",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1363712383.1665598712"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1688262187.686331,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "csrf-token",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "AABLoFU+70bLpjfiZ3Anet5M+Hd14rxKSM5d+w"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1672728273.741,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PgQnXDJ51t",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "PgQnXDJ51t"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1672731495.700255,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "browser_info",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "CHROME:108:COMPUTER:SUPPORTED:FREEMIUM:WINDOWS_10:WINDOWS"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1672835895.70016,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "funnelType",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "free"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1685866839.519966,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "gnar_containerId",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "tsqg7felj8600b82"
+    },
+    {
+        "domain": ".grammarly.com",
+        "expirationDate": 1688262187.686359,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "tdi",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "sbxwu23s2r7h6twjl"
+    }
+]
+
+
+
+https://www.linkedin.com/learning-login/go/validate?account=93557497&redirect=https://www.linkedin.com/learning-login/continue?authUUID=SNiCIUY3Rj6z3GcA0YnwPA%3D%3D&forceAccount=false&authUUID=SNiCIUY3Rj6z3GcA0YnwPA==
+
+CARD: 21901805167321
+
+PIN: 280591
+
+[
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1687707084,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ajs_group_id",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "null"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1656171145,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat_UA-53733575-1",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1687617685,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_clck",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1679j29|1|f2l|0"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1687707084,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ajs_user_id",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%228ca8419727d246a283bd16ef89eee840%22"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1656175666,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_clsk",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "chgwyc|1656089266347|3|0|l.clarity.ms/collect"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1656172961,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_fbp",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "fb.1.1647189403226.1382449315"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1719243085,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.2.1577499649.1647189403"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1719243085,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga_QV5FD29XJC",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GS1.1.1656171085.223.0.1656171085.60"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1662812519,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gcl_au",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1.1.200766376.1655036520"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1656257485,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.2.1377488671.1656081684"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1680704200,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ajs_anonymous_id",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%22b5d52215-1fad-4227-9606-03d1e4b14a4b%22"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1656171117.561157,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "AK_SERVER_TIME",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1656171082"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1687707077,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "device_id",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "21eeb051-07aa-406e-bc06-ae6fbab4fe72"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1680704200,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "facebookCookie",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "{\"deviceId\":\"21eeb051-07aa-406e-bc06-ae6fbab4fe72\",\"fbId\":\"\",\"emailId\":\"\",\"isProfileRequired\":false,\"token\":\"\",\"dateOfBirth\":\"\",\"age\":\"\",\"gender\":\"\"}"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1656171137.561259,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "geo",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "IN,MH,MUMBAI,18.98,72.83,9829"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1962808595,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "hs_uid",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "21eeb051-07aa-406e-bc06-ae6fbab4fe72"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1678725395,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userLocale",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eng"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userPlanAttributes",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "{\"packages\":[],\"attributes\":{\"is_device_limit_upgradable\":false,\"min_expiry_time\":1679934261000},\"client_entitlements\":{\"max_concurrent_signins\":10,\"playback_list_platforms\":[\"android\",\"ios\",\"androidtv\",\"firetv\",\"appletv\",\"roku\",\"web\",\"mweb\",\"tizentv\",\"webos\",\"jiostb\",\"chromecast\",\"tvos\",\"pctv\",\"jio\",\"jio-lyf\"],\"list_video_resolution_text\":[\"sd\",\"hd\",\"fhd\",\"4k\"],\"list_video_dynamic_range\":null,\"list_audio_channel_text\":null,\"max_concurrent_playbacks\":4,\"is_casting_allowed\":true,\"max_auto_bitrate\":0,\"max_auto_resolution\":2160,\"show_ads\":false,\"requested_subs_tag\":null}}"
+    },
+    {
+        "domain": "www.hotstar.com",
+        "expirationDate": 1687707078,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "userUP",
+        "path": "/in",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJ1bV9hY2Nlc3MiLCJleHAiOjE2NTYyNTc0ODMsImlhdCI6MTY1NjE3MTA4MywiaXNzIjoiVFMiLCJqdGkiOiIzYWJmYTA0MGI0NTg0NmZkOTNkYWQ4NjU3ZDVmN2VjZCIsInN1YiI6IntcImhJZFwiOlwiMzA5MWQwYTBlMjBhNDc2YTlkNzBiZjA0ODU2N2JjNDNcIixcInBJZFwiOlwiOGNhODQxOTcyN2QyNDZhMjgzYmQxNmVmODllZWU4NDBcIixcIm5hbWVcIjpcImhlbWFcIixcInBob25lXCI6XCI5MzgwMTI2MjYwXCIsXCJpcFwiOlwiMTE3LjE5OC4xNDEuMTk3XCIsXCJjb3VudHJ5Q29kZVwiOlwiaW5cIixcImN1c3RvbWVyVHlwZVwiOlwibnVcIixcInR5cGVcIjpcInBob25lXCIsXCJpc0VtYWlsVmVyaWZpZWRcIjpmYWxzZSxcImlzUGhvbmVWZXJpZmllZFwiOnRydWUsXCJkZXZpY2VJZFwiOlwiMjFlZWIwNTEtMDdhYS00MDZlLWJjMDYtYWU2ZmJhYjRmZTcyXCIsXCJwcm9maWxlXCI6XCJBRFVMVFwiLFwidmVyc2lvblwiOlwidjJcIixcInN1YnNjcmlwdGlvbnNcIjp7XCJpblwiOntcIkhvdHN0YXJQcmVtaXVtU21wXCI6e1wic3RhdHVzXCI6XCJTXCIsXCJleHBpcnlcIjpcIjIwMjMtMDMtMjdUMTY6MjQ6MjEuMDAwWlwiLFwic2hvd0Fkc1wiOlwiMFwiLFwiY250XCI6XCIxXCJ9fX0sXCJlbnRcIjpcIkNnc1NDUWdLT0FSQUFWRHdFQXJCQVFvRkNnTUtBUVVTdHdFU0IyRnVaSEp2YVdRU0EybHZjeElKWVc1a2NtOXBaSFIyRWdabWFYSmxkSFlTQjJGd2NHeGxkSFlTQkhKdmEzVVNBM2RsWWhJRWJYZGxZaElIZEdsNlpXNTBkaElGZDJWaWIzTVNCbXBwYjNOMFloSUtZMmh5YjIxbFkyRnpkQklFZEhadmN4SUVjR04wZGhJRGFtbHZFZ2RxYVc4dGJIbG1HZ0p6WkJvQ2FHUWFBMlpvWkJvQ05Hc2lBM05rY2lJRmFHUnlNVEFpQzJSdmJHSjVkbWx6YVc5dUtnWnpkR1Z5Wlc4cUNHUnZiR0o1TlM0eFdBRUtJZ29hQ2c0U0JUVTFPRE0yRWdVMk5EQTBPUW9JSWdabWFYSmxkSFlTQkRoa1dBRUt3UUVLQlFvRENnRUFFcmNCRWdkaGJtUnliMmxrRWdOcGIzTVNDV0Z1WkhKdmFXUjBkaElHWm1seVpYUjJFZ2RoY0hCc1pYUjJFZ1J5YjJ0MUVnTjNaV0lTQkcxM1pXSVNCM1JwZW1WdWRIWVNCWGRsWW05ekVnWnFhVzl6ZEdJU0NtTm9jbTl0WldOaGMzUVNCSFIyYjNNU0JIQmpkSFlTQTJwcGJ4SUhhbWx2TFd4NVpob0NjMlFhQW1oa0dnTm1hR1FhQWpScklnTnpaSElpQldoa2NqRXdJZ3RrYjJ4aWVYWnBjMmx2YmlvR2MzUmxjbVZ2S2doa2IyeGllVFV1TVZnQkVnY1FpSTZLbi9Jd1wiLFwiaXNzdWVkQXRcIjoxNjU2MTcxMDgzMTMwfSIsInZlcnNpb24iOiIxXzAifQ.9v1e0Wl6zSgMeMX04rtN_NjBZrCgF6EhHCguxnH9HLQ"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1656257485,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_uetsid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "b8e7fa90f3cb11ec9e48dd181451b852"
+    },
+    {
+        "domain": ".hotstar.com",
+        "expirationDate": 1689867085,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_uetvid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "c408d570a2eb11eca678d7d193871990"
+    }
+]
+
+
+
+
+Product Key: RQW6C-6N32W-PW7H4-JW9YP-27JXG
+
+Key Status: Valid
+
+Product ID: 00330-80216-73608-AA253
+
+Extended PID: XXXXX-03308-021-673608-00-1033-9200.0000-2882022
+
+Activation ID: 4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c
+
+Edition Type: Professional
+
+Description: Win 10 RTM Professional Retail
+
+Edition ID: [TH]X19-98845
+
+License Type: Retail
+
+License Channel: Retail
+
+Crypto ID: 3308
+
+Benchmark: 0.2 seconds
+
+Product Key: W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+Key Status: Valid
+
+Product ID: 00331-10000-00001-AA157
+
+Extended PID: XXXXX-03311-000-000001-03-1033-9200.0000-2882022
+
+Activation ID: 2de67392-b7a7-462a-b1ca-108dd189f588
+
+Edition Type: Professional
+
+Description: Win 10 RTM Professional Volume:GVLK
+
+Edition ID: [TH]X19-98795
+
+License Type: Volume:GVLK
+
+License Channel: Volume
+
+Crypto ID: 3311
+
+Benchmark: 0.2 seconds
+
+Product Key: HVWJ3-F3VD7-KR9DW-CPYQQ-KPWRR
+
+Key Status: Valid
+
+Product ID: XXXXX-222-8186525-86342
+
+Extended PID: XXXXX-00172-222-818652-00-1033-9200.0000-2882022
+
+Activation ID: 770bc271-8dc1-467d-b574-73cbacbeccd1
+
+Edition Type: Professional
+
+Description: Windows 7 Professional Retail
+
+Edition ID: X15-39009
+
+License Type: Retail
+
+License Channel: MSDN
+
+Crypto ID: 0172
+
+Benchmark: 9.3 seconds
+
+Product Key: GMJQF-JC7VC-76HMH-M4RKY-V4HX6
+
+Key Status: Valid
+
+Product ID: XXXXX-OEM-8992671-00013
+
+Extended PID: XXXXX-00178-926-700013-02-1033-9200.0000-2882022
+
+Activation ID: 50e329f7-a5fa-46b2-85fd-f224e5da7764
+
+Edition Type: Professional
+
+Description: Windows 7 Professional OEM:SLP
+
+Edition ID: X15-37377
+
+License Type: OEM:SLP
+
+License Channel: OEM
+
+Crypto ID: 0178
+
+Benchmark: 10.6 seconds
+
+
+
+
+College Name - > Tyler Junior College
+
+STEP 1: This College Edu gives Github Student Pack without Student ID Card Verification
+
+STEP 2: Use USA IP to Apply to College
+
+STEP 3: College Reply time varies between 24 hours and 72 hours
+
+STEP 4: So You need to be patient and wait for the Edu Email to come
+
+STEP 5:After you receive the confirmation letter from the college then in the confirmation letter you will find something called the A-Number.
+
+STEP 6:Then open the website(https://myapacheaccess.tjc.edu/) in any browser and enter your A-Number in username.
+
+STEP 7:For the password you need to enter TJC followed by MMDDYY.
+
+Here MM = Birth Month DD = Birth Date YY= Last Two Digits of Birth Year
+
+STEP 8: Once you login to the website you will find a opton called ‘Email’ .
+
+STEP 9: Click on that option and then you will be redirected to Gmail where you can see that you have been logged into the Edu Email.
+
+STEP 10: For getting Github go to github.com and click create account.
+
+STEP 11: In the email section enter the edu emails username(find it in gmail tab) followed by @email.tjc.edu.Then put your preferred username and password.
+
+STEP 12: Now go to education.github.com/offers and click ‘I am a student’ and you will find student application page.
+
+STEP 13:You will find Green Tick next to College Name and when you click Continue/Apply.
+
+STEP 14: You will find that Github Student Pack is directly activated and you can easily use all the benefits of the Pack.
+
+
+## The guide to creating GitHub Student Account to get access to free benefits (worth $200k) without actually being a student:
+
+Requirements:
+
+1.[Nexo Mail](https://nexo.email/)
+
+2.[GitHub Education](https://education.github.com/)
+
+3.[Gmail (Spam)](https://mail.google.com/)
+
+4.[Student ID Maker](https://gamitisa.com/cards/studentid/)
+
+5.Desired School Logo in .png format (Refer to step 9)
+
+6.[~~PhotoShop~~ Free PhotoShop](https://www.adobe.com/in/products/photoshop.html)
+
+7.[Strong VPN](https://www.expressvpn.com/)(Only if you are living outside india)
+
+8.[Image of a random **kid** here!](https://thispersondoesnotexist.com/)
+
+9. Have a school in mind near you and get logo from google.
+
+10.*Skills*
+
+Notices:
+
+1.You will have to cover your webcam to avoid getting your face captured. (Webcam permission is compulsory)
+
+2.You will have to give Location access to GitHub. (Location access compulsory)
+
+3.You will need an existing GitHub account that is having full profile completed.
+
+4.You will need one next mail and one genuine Gmail account.
+
+5.You will always be rejected on the first attempt.
+
+*Recommendation*: Use a secondary browser like firefox which you have never used before
+
+Step1: Go to student id maker and download the ID which you have customized with a kid’s photo. You can keep
+
+any class like 8th,9th,10th,11th, or 12th. Age must be more than 13 years. Keep the school logo that is near you.
+
+Step2: Photoshop it, change the signature, add the kid’s photo, add a bedsheet background behind the ID card and increase the contrast.
+
+Step3: Now export as png and upload to GitHub education form as student ID. Make sure that you select your current school as the one from which you “*borrowed*” the logo.
+
+Step4: Submit the request wait for 1 day and you will get a rejection notice.
+
+Step5: Repeat the process again but add your Gmail also and submit the form with that email. This will make GitHub think you are genuine as you have given an education email and personal email.
+
+Now wait for accept form for 1 or 2 days ( For me it was 6 hours) If it is rejected again then it means you should use VPN as you got IP ban.
+
+
+
+
+
+
+[
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701529470,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "idrTimestamp",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%222022-12-02T15%3A04%3A30.682Z%22"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "WMUKID_STABLE",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "21586680-f4e5-49a8-ae30-b13cdcd6d67e"
+    },
+    {
+        "domain": ".play.hbomax.com",
+        "expirationDate": 1669994744,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmt",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": ".play.hbomax.com",
+        "expirationDate": 1704554144.457862,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "45001445.1935053739.1669993407.1669993407.1669993407.1"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1670001360.383962,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.2.6056468.1669993461"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "sendWMSegs",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701529470,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "hhidVersion",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "38"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1677769394,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gcl_au",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1.1.2049506284.1669993394"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1704180159,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_scid",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "27be0fc7-e914-453d-9b5a-a1406f14120d"
+    },
+    {
+        "domain": ".play.hbomax.com",
+        "expirationDate": 1669995944,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "45001445.3.10.1669993407"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "isInAuthTokenExperiment",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "isInHHIDExperiment",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".play.hbomax.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "45001445"
+    },
+    {
+        "domain": ".play.hbomax.com",
+        "expirationDate": 1685762144,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "45001445.1669993407.1.1.utmcsr=hbomax.com|utmccn=(referral)|utmcmd=referral|utmcct=/"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1670000661.224307,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_dc_gtm_UA-124504716-4",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "1"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1704554160.926623,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GA1.1.1935053739.1669993407"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1704554160.924603,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga_WQ2QZSQXDV",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "GS1.1.1669993462.1.1.1669994160.27.0.0"
+    },
+    {
+        "domain": ".hbomax.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_schn",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": true,
+        "storeId": null,
+        "value": "_ylxmaq"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1704180164,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_sctr",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "1|1669921200000"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701550396,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ab.storage.deviceId.f2cb978c-e22a-4fd1-b0b2-3474833a00bf",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%7B%22g%22%3A%22f19b6446-a3cd-8a87-feeb-39590ffd5ea5%22%2C%22c%22%3A1669993441333%2C%22l%22%3A1669993456032%7D"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701551083,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ab.storage.sessionId.f2cb978c-e22a-4fd1-b0b2-3474833a00bf",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%7B%22g%22%3A%22d3fb99fc-a22f-9238-64f1-dc2a420ead09%22%2C%22e%22%3A1669995943910%2C%22c%22%3A1669993456031%2C%22l%22%3A1669994143910%7D"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701550396,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "ab.storage.userId.f2cb978c-e22a-4fd1-b0b2-3474833a00bf",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "%7B%22g%22%3A%22dd8b9388fe5a5b3791ac3317c406e83b%22%2C%22c%22%3A1669993456029%2C%22l%22%3A1669993456033%7D"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701529469,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "CDPID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "{\"cdpId\":\"ae1c6d9f-cc2a-4dbd-91c1-e807064ffcb7\",\"wmukId\":\"21586680-f4e5-49a8-ae30-b13cdcd6d67e\"}"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "psmLastActiveTimestamp",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "2022-12-02T15%3A16%3A10.301Z"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "psmPageLoadId",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "6"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "psmSessionId",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "01756d91-24b3-451b-ab3a-bdffa69cd0dc"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "psmSessionStart",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "2022-12-02T15%3A04%3A30.686Z"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "sendAuthToken",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    },
+    {
+        "domain": ".hbomax.com",
+        "expirationDate": 1701530170,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "sendHHID",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "false"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

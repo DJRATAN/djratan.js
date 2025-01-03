@@ -1,0 +1,133 @@
+BIOSConfig 1.0
+;
+;     Originally created by BIOS Configuration Utility
+;     Version: 4.0.32.1
+;     Date="2021/09/27" Time="13:29:59" UTC="6"
+;
+;     Found 40 settings
+;
+UEFI Boot Order
+	OS Boot Manager
+	Internal CD/DVD ROM Drive
+	USB Diskette on Key/USB Hard Disk
+	USB CD/DVD ROM Drive
+	Network Adapter
+Feature Byte
+	3K6b7K7P7WaBapaqarawbCbhcbd8dUdpdqfPhwjCm9n3n4.E7
+Build ID
+	19WW8P6T602#SACJ#DACJ
+Product Number
+	242D3PA 
+Serial Number
+	CND0424F5V 
+Product Name
+	HP Laptop 15-da3001TU 
+UUID
+	E96CEB7DB20411EB810A489EBD11AE8E
+Mac Address
+	489EBD11AE8E
+System Board CT Number
+	PKKMCB31WF6BBP
+MS Digital Marker
+	FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+System Board ID
+	86C1
+System Family
+	HP Family
+Preinstall OS Version
+	
+PIN Process Cycle
+	20C1
+BIOS Revision
+	F.36
+Batt_LTemp
+	01 00
+Network Boot
+	*Enable
+	Disable
+Secure Boot
+	Enable
+	*Disable
+Manufacturing Programming Mode
+	*Unlock
+	Lock
+CD-ROM Boot
+	*Enable
+	Disable
+Network Boot Protocol
+	IPv4 (UEFI)
+	IPv6 (UEFI)
+	*IPv4+IPv6 (UEFI)
+Fan Always On
+	Enable
+	*Disable
+Action Key Mode
+	*Enable
+	Disable
+Language
+	*English
+	french
+	Spanish
+	Traditional Chinese
+	Simplified  Chinese
+POST Hotkey Delay (sec)
+	*0
+	5
+	10
+	15
+	20
+Intel Software Guard Extensions
+	Enable
+	Disable
+	*S/W Controlled
+TPM Device
+	*Available
+	Hidden
+TPM Version
+	d1.2
+	d2.0
+	*f2.0
+TPM State
+	*Enable
+	Disable
+Clear TPM
+	Yes
+	*No
+TPM Reset to Factory Defaults
+	Yes
+	*No
+TPM Activation Policy
+	*No prompts
+	Allow user to reject
+Secure Boot Keys
+	*Clear
+	HP
+	Custom
+Restore Security Defaults
+	Yes
+	*No
+PIN Load Defaults
+	Yes
+	*No
+Reflow Process
+	Yes
+	*No
+Clear BOD
+	Yes
+	*No
+USB Boot
+	*Enable
+	Disable
+Keyboard Type
+	*Non-Japanese
+	Japanese Keyboard
+	New EMEA UK KB (US2)
+	New BRZL KB (UK2)
+	New BRZL KB (US3)
+	US4 (LA KB)
+	US5 (Europe KB)
+	US6 (Korea KB)
+	US7 (Brazil KB)
+Hyper-Threading
+	*Enable
+	Disable
