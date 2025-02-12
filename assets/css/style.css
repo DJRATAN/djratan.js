@@ -1,17 +1,19 @@
-
 /* 106eea   --- 0F2440*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+
 a {
   color: #0F2440;
   text-decoration: none;
 }
+
 a:hover {
   color: #00142f;
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
